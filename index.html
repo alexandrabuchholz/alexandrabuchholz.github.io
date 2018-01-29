@@ -1,43 +1,86 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>PuppyLove</title>
-</head>
-<body>
-<h1>This is <em>PuppyLove</em></h1>
+<html lang="en">
+ <head>
+ <title>PuppyLove</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ <link href="https://fonts.googleapis.com/css?family=Gochi+Hand" rel="stylesheet">
+ <link rel="stylesheet" href="styles.css">
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+ </head>
+ <body>
+  <!-- Navbar -->
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+   <a class="navbar-brand" href="index.html">PuppyLove</a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+     <div class="navbar-nav">
+       <a class="nav-item nav-link active" href="kittylove.html">KittyLove <span class="sr-only">(current)</span></a>
+       <a class="nav-item nav-link active" href="ponylove.html">PonyLove</a>
+     </div>
+   </div>
+ </nav>
 
-<hr>
+ <!-- Jumbotron -->
 
-<p><img src="puppies.jpg"></p>
+<div class="jumbotron puppyjumbotron text-center">
+  <h1 class="display-4">Connecting people, puppies, and passions</h1>
+  </p>
+</div>
 
-<p>At PuppyLove, we are passionate about:
-  <ul>
-    <li>Finding puppies forever homes</li>
-    <li>Supporting organizations that help puppies</li>
-    <li>Connecting people that love puppies</li>
-  </ul>
-
-  <p><table>
-    <tr>
-      <th>Puppy</th>
-      <th>Story</th>
-      <th>Donation Amount Needed</th>
-    </tr>
-    <tr>
-      <td><p>Bingo</p><img src="puppy1.jpg"></td>
-      <td>Bingo was abandoned with a broken leg and needs surgery</td>
-      <td>$1000</td>
-    </tr>
-    <tr>
-      <td><p>Rover</p><img src="puppy2.png"></td>
-      <td>Rover is almost ready for adoption, but needs a couple more weeks of food and warmth!</td>
-      <td>$100</td>
-    </tr>
-  </table></p>
-
-  <p><a href="http://www.pawschicago.org/">To find more puppies like Bingo and Rover, go to the PAWS Chicago website</p>
-
-  <p><a href="kittylove.html">To find kitties that also need love, click here</p>
-
-</body>
+<!-- Grid -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-5">
+      <h3>At PuppyLove, our mission is to...</h3>
+        <p><ul>
+            <li><p>connect animals with their <em>fur-ever</em> homes</p></li>
+            <li><p>rescue animals in need of health care, food, and affection</p></li>
+            <li><p>build a community of animal lovers</p></li>
+          </ul>
+        </p>
+        <p><a href="http://www.pawschicago.org/" button type="button" class="btn btn-outline-danger">Donate Now</button></a></p>
+    </div>
+    <div class="col-lg-7">
+      <h3><i class="fas fa-heart"></i> Puppies that need love</h3>
+      <p><table class="table table-hover borderless">
+          <thead>
+            <tr>
+              <th scope="col">Puppy</th>
+              <th scope="col">Age</th>
+              <th scope="col">Gender</th>
+              <th scope="col">Breed</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Bingo<p><img class="puppypics" src="bingo.png"></p></td>
+              <td>3 months</td>
+              <td>Male (not neutered)</td>
+              <td>Golden lab mix</td>
+            </tr>
+            <tr>
+              <td>Lily<p><img class="puppypics" src="lily.png"></p></td>
+              <td>4 months</td>
+              <td>Female (spayed)</td>
+              <td>Dalmation</td>
+            </tr>
+            <tr>
+              <td>Java<p><img class="puppypics" src="javapuppylove.png"></p></td>
+              <td>4 years</td>
+              <td>Female (spayed)</td>
+              <td>Rottweiler mix</td>
+            </tr>
+          </tbody>
+        </table></p>
+    </div>
+  </div>
+</div>
+ </body>
 </html>

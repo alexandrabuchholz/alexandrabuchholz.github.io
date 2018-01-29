@@ -1,39 +1,86 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>KittyLove</title>
-  </head>
-  <body>
-    <p><h1><em>KittyLove</em></h1></p>
+<html lang="en">
+ <head>
+ <title>KittyLove</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ <link href="https://fonts.googleapis.com/css?family=Gochi+Hand" rel="stylesheet">
+ <link rel="stylesheet" href="styles.css">
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+ </head>
+ <body>
+  <!-- Navbar -->
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+   <a class="navbar-brand" href="kittylove.html">KittyLove</a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+     <div class="navbar-nav">
+       <a class="nav-item nav-link active" href="index.html">PuppyLove <span class="sr-only">(current)</span></a>
+       <a class="nav-item nav-link active" href="ponylove.html">PonyLove</a>
+     </div>
+   </div>
+ </nav>
 
-    <hr>
+ <!-- Jumbotron -->
 
-    <p><img src="kittens.jpg"></p>
+<div class="jumbotron kittyjumbotron text-center">
+  <h1 class="display-4">Making connections with cats, kittens, and you!</h1>
+</p>
+</div>
 
-      <p>Because kitties need love too</p>
-
-      <hr>
-
-      <p><table>
-        <tr>
-          <th>Kitten</th>
-          <th>Story</th>
-          <th>Donation Amount Needed</th>
-        </tr>
-        <tr>
-          <td><p>Bowser</p><img src="bowser.jpg"></td>
-          <td>Bowser came up to starving and needs to be nursed back to health</td>
-          <td>$500</td>
-        </tr>
-        <tr>
-          <td><p>Mittens</p><img src="mittens.jpg"></td>
-          <td>Mittens just needs basic care until she finds her fur-ever home!</td>
-          <td>$50</td>
-        </tr>
-      </table></p>
-
-        <p><a href="index.html">To find puppies that also need love, click here</p>
-
-  </body>
+<!-- Grid -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-5">
+      <h3>At KittyLove, our mission is to...</h3>
+        <p><ul>
+            <li><p>connect animals with their <em>fur-ever</em> homes</p></li>
+            <li><p>rescue animals in need of health care, food, and affection</p></li>
+            <li><p>build a community of animal lovers</p></li>
+          </ul>
+        </p>
+        <p><a href="http://www.pawschicago.org/" button type="button" class="btn btn-outline-danger">Donate Now</button></a></p>
+    </div>
+    <div class="col-lg-7">
+      <h3><i class="fas fa-heart"></i> Kitties that need love</h3>
+      <p><table class="table table-hover borderless">
+          <thead>
+            <tr>
+              <th scope="col">Kitty</th>
+              <th scope="col">Age</th>
+              <th scope="col">Gender</th>
+              <th scope="col">Breed</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Garfield<p><img class="kittypics" src="garfieldkittylove.png"></p></td>
+              <td>2 months</td>
+              <td>Male (not neutered)</td>
+              <td>Tabby</td>
+            </tr>
+            <tr>
+              <td>Sassy<p><img class="kittypics" src="sassykittylove.png"></p></td>
+              <td>One year</td>
+              <td>Female (spayed)</td>
+              <td>Siamese mix</td>
+            </tr>
+            <tr>
+              <td>Bowser<p><img class="kittypics" src="bowserkittylove.png"></p></td>
+              <td>8 months</td>
+              <td>Male (neutered)</td>
+              <td>Tabby</td>
+            </tr>
+          </tbody>
+        </table></p>
+    </div>
+  </div>
+</div>
+ </body>
 </html>

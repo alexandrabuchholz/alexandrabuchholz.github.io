@@ -1,0 +1,47 @@
+.navbar-light .navbar-brand {
+  color: #ec548b;
+  font-family: 'Gochi Hand', cursive;
+}
+
+.jumbotron h1 {
+  color: #ec548b;
+  font-weight: bold;
+  font-family: 'Gochi Hand', cursive;
+}
+
+.puppyjumbotron {
+  background-image: url(puppylovebackground.jpg);
+}
+
+.kittyjumbotron {
+  background-image: url(kittylovebackground.png);
+
+}
+
+.ponyjumbotron {
+  background-image: url(ponylovebackground.jpg);
+}
+
+h3 {
+  color: #ec548b;
+  font-family: 'Gochi Hand', cursive;
+}
+
+.btn {
+  color:#ec548b;
+  border-color: #ec548b;
+}
+
+th {
+  color: #ec548b;
+  text-align: center;
+}
+
+td {
+  text-align: center;
+}
+
+img.puppypics, img.kittypics, img.ponypics {
+  width: 75px;
+  padding: 1px 1px 1px 1px;
+}
